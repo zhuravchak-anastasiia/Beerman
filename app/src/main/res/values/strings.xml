@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BEERMAN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BEERMAN</string>
+    <string name="nav_header_subtitle">beerman@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_process">Process</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_calculators">Calculators</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="ale">Ale</string>
+    <string name="stout">Stout</string>
+    <string name="lager">Lager</string>
+    <string name="malt">Malt</string>
+    <string name="pilsner">Pilsner</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDFDF1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Notes"
+
+    tools:showIn="@layout/activity_notes">
+
+
+
+    <EditText
+        android:id="@+id/etData"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Title"
+        tools:ignore="MissingConstraints"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:hint="Text"
+        app:layout_constraintTop_toBottomOf="@+id/etData" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="ADD"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="READ"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

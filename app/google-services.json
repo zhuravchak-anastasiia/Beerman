@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405462227937",
+    "firebase_url": "https://beerman-babe6.firebaseio.com",
+    "project_id": "beerman-babe6",
+    "storage_bucket": "beerman-babe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405462227937:android:e40f90d619607c66",
+        "android_client_info": {
+          "package_name": "com.example.beerman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405462227937-eo8a5dev3in30l3emocsggj6isg7sva4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beerman",
+            "certificate_hash": "dc49957433fff6e01f6fb35dc946c6fcdc06ae5a"
+          }
+        },
+        {
+          "client_id": "405462227937-fbu4g68krh35u1m6i86r0kajs82bacmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeHmQZ_sOnnXksC7BKy1uNrAcKYEDSp_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405462227937-fbu4g68krh35u1m6i86r0kajs82bacmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
