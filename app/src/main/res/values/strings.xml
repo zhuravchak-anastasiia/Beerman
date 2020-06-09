@@ -23,4 +23,6 @@
     <string name="read">READ</string>
     <string name="text">Text</string>
     <string name="title">Title</string>
+    <string name="welcome">Welcome to Beerman. This is an app created just for you to help you with your brewing needs. Navigate to side meu to continue.</string>
+
 </resources>
