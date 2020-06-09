@@ -64,6 +64,9 @@ public class TrueMainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_process) {
 
+            startActivity(new Intent(TrueMainActivity.this, Notes.class));
+            return true;
+
         } else if (id == R.id.nav_notes) {
             startActivity(new Intent(TrueMainActivity.this, Notes.class));
             return true;
