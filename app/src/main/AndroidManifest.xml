@@ -29,6 +29,10 @@
         android:name=".Notes"
         android:label="Notes"
         />
+        <activity
+            android:name=".Processes"
+            android:label="Processes"
+            />
     <activity
         android:name=".Recipes"
         android:theme="@style/AppTheme.NoActionBar"

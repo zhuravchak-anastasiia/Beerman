@@ -19,4 +19,8 @@
     <string name="malt">Malt</string>
     <string name="pilsner">Pilsner</string>
     <string name="todo">TODO</string>
+    <string name="add">ADD</string>
+    <string name="read">READ</string>
+    <string name="text">Text</string>
+    <string name="title">Title</string>
 </resources>
