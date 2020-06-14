@@ -76,6 +76,8 @@ public class TrueMainActivity extends AppCompatActivity
             return true;
 
         } else if (id == R.id.nav_calculator) {
+            startActivity(new Intent(TrueMainActivity.this, CalculatorActivity.class));
+            return true;
 
         } else if (id == R.id.nav_share) {
 

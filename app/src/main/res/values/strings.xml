@@ -24,5 +24,11 @@
     <string name="text">Text</string>
     <string name="title">Title</string>
     <string name="welcome">Welcome to Beerman. This is an app created just for you to help you with your brewing needs. Navigate to side meu to continue.</string>
+    <string name="og_1_050">OG: 1.050</string>
+    <string name="fg_1_010">FG: 1.010</string>
+    <string name="alcohol_by_volume_abv_calculator">Alcohol By Volume ABV Calculator</string>
+    <string name="abv_info">Finds ABV based on gravity change. If you took an original gravity reading (or had estimated OG), and also took a final gravity (FG) reading prior to adding priming sugar at bottling you can find out your batch\'s alcohol by volume ABV. This calculator compliments the Brewer\'s Friend brew day sheets, which will help you keep records of your brewing process.</string>
+    <string name="update">Update</string>
+    <string name="_5_78">5.78%</string>
 
 </resources>

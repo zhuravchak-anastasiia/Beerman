@@ -23,7 +23,8 @@ public class Processes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_processes);
         videoView = (VideoView) findViewById(R.id.video_view);
-        videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video;
+        videoPath = "android.resource://" + getPackageName() + "/";
+//        + R.raw.video;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 

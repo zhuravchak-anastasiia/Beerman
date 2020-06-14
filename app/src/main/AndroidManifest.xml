@@ -10,45 +10,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-    <activity
-        android:name=".SplashScreen"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".CalculatorActivity"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity android:name=".MainActivity"
-        android:theme="@style/AppTheme.NoActionBar" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TrueMainActivity"
-        android:theme="@style/AppTheme.NoActionBar"/>
-    <activity
-        android:name=".Notes"
-        android:label="Notes"
-        />
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notes"
+            android:label="Notes" />
         <activity
             android:name=".Processes"
-            android:label="Processes"
-            />
-    <activity
-        android:name=".Recipes"
-        android:theme="@style/AppTheme.NoActionBar"
-        />
-    <activity
-        android:name=".DetailActivity"
-        android:theme="@style/AppTheme.NoActionBar"
-        />
+            android:label="Processes" />
         <activity
-            android:name=".SignUp"
-            />
+            android:name=".Recipes"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ForgotPassword"
-            />
-
-
+            android:name=".DetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".ForgotPassword" />
     </application>
 
 </manifest>
